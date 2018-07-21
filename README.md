@@ -37,6 +37,15 @@ $ benny-hill --help
 $ benny-hill --help
 ```
 
+## Does it only work with fish?
+
+To make your bins work outside of fish, put this into your `~/.profile`:
+
+```sh
+export PATH="$HOME/.node_modules/bin:$PATH"
+export npm_config_prefix="~/.node_modules"
+```
+
 ## How it works
 
 See [conf.d/npm-global.fish](conf.d/npm-global.fish).
