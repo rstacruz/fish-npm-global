@@ -2,7 +2,7 @@
 
 > Make user-installed global npm packages work with fish
 
-Ever been frustrated that `npm install -g` just doesn't quite work? This fixes that. A fish plugin to make `yarn global` and `npm install -g --prefix=~/.node_modules` work.
+Ever been frustrated that `npm install -g` just doesn't quite work? This fixes that. A fish plugin to make `yarn global add <pkg>` and `npm install -g <pkg>` work with your Fish shell.
 
 ## Install
 
