@@ -7,7 +7,14 @@
 set -gx npm_config_prefix ~/.node_modules
 
 # Add the path to your executable paths.
-set -gx fish_user_paths ~/.node_modules/bin $fish_user_paths
+if test -d ~/.node_modules/bin
+  set -gx fish_user_paths ~/.node_modules/bin $fish_user_paths
+end
+
+# Might as well get Yarn's, too.
+if test -d ~/.yarn/bin
+  set -gx fish_user_paths ~/.yarn/bin $fish_user_paths
+end
 
 # Troubleshooting
 # ---------------
