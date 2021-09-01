@@ -9,7 +9,7 @@ Ever been frustrated that `npm install -g` just doesn't quite work? This fixes t
 Using [Fisherman](https://github.com/fisherman/fisherman):
 
 ```sh
-fisher rstacruz/fish-npm-global
+fisher install rstacruz/fish-npm-global
 ```
 
 ## Usage
